@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-class App extends React.Component{
-    render(){
-        return Hello {this.props.name};
-    }
+
+require('./style.css');
+
+class App extends React.Component {
+  render() {
+    const { name } = this.props;
+    return <>Hello {name}</>;
+  }
 }
-var mountNode=document.getElementById('app')
-ReactDOM.render(,mountNode)
+const mountNode = document.getElementById('app');
+ReactDOM.render(<App name="Aaron" />, mountNode);
