@@ -16,11 +16,8 @@ const config = {
       },
       {
         test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader'
-        ]
-      }
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },
   resolve: {

@@ -9,6 +9,7 @@
 - webpack.config.js
   - module rules
   - resolvers for `js`, `jsx`
+  - rules for 'css'
 - .babelrc
   - `preset-env` for modern javascript
   - `preset-react` for jsx
